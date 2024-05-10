@@ -142,7 +142,7 @@ newButton.addEventListener("click", function resetAlarm(){
     updateTimer();
     showNext();
     if (!newInterval) {
-        newInterval = setInterval(intervalFunction, 60000);
+        newInterval = setInterval(intervalFunction, 1000);
       }
 })
 
@@ -154,7 +154,7 @@ nextButton.addEventListener("click", function nextAlarm(){
     updateTimer();
     showNext();
     if (!newInterval) {
-        newInterval = setInterval(intervalFunction, 60000);
+        newInterval = setInterval(intervalFunction, 1000);
       };
 })
 
