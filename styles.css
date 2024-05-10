@@ -170,7 +170,7 @@ button:hover {
     font-weight: bold;
     padding: 20px;
     width: 50%;
-    min-height: 50%;
+    min-height: 30%;
     border: 1px solid #888;
     border-radius: 20px;
 }
