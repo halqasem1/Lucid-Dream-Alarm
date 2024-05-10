@@ -166,11 +166,11 @@ button:hover {
     background-color: #d9ceff;
     color: #342158;
     margin: 5% auto;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     padding: 20px;
     width: 50%;
-    height: 80%;
+    min-height: 50%;
     border: 1px solid #888;
     border-radius: 20px;
 }
@@ -200,6 +200,6 @@ button:hover {
         margin-top: 80px;
     }
     #aboutContent {
-        height: 100%;
+        width: 75%;
     }
 }
