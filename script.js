@@ -119,7 +119,7 @@ function endTimer(){
         clearInterval(newInterval);
         newInterval = null;
         alarmSound.play();
-        // alert("Alarm!");
+        alert("Alarm!");
     }
 }
 
@@ -136,6 +136,7 @@ newButton.addEventListener("click", function resetAlarm(){
     remainingHours = 4;
     remainingMinutes = 0;
     currentTime = 0;
+    currentProgress.style.width = 0 + "%";
     increment = 1;
     finalTime = 0;
     updateTimer();
