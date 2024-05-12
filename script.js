@@ -139,6 +139,7 @@ newButton.addEventListener("click", function resetAlarm(){
     currentProgress.style.width = 0 + "%";
     increment = 1;
     finalTime = 0;
+    alarmSound.muted = !alarmSound.muted;
     updateTimer();
     showNext();
     if (!newInterval) {
